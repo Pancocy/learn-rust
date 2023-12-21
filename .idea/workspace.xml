@@ -3,8 +3,14 @@
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
+  <component name="CargoProjects">
+    <cargoProject FILE="$PROJECT_DIR$/闭包/Cargo.toml" />
+    <cargoProject FILE="$PROJECT_DIR$/迭代器/Cargo.toml" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="72c1a986-9145-4e05-b79d-a9250933f0ca" name="更改" comment="" />
+    <list default="true" id="72c1a986-9145-4e05-b79d-a9250933f0ca" name="更改" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -22,10 +28,13 @@
   <component name="GithubPullRequestsUISettings">
     <option name="selectedUrlAndAccountId">
       <UrlAndAccount>
-        <option name="accountId" value="650f4307-a11e-4659-9b06-27e61763fb80" />
-        <option name="url" value="https://github.com/Pancocy/RustDemos.git" />
+        <option name="accountId" value="8fb0e790-272a-4914-afb4-6b0ed7473903" />
+        <option name="url" value="https://github.com/Pancocy/rust.git" />
       </UrlAndAccount>
     </option>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/闭包/src/main.rs" root0="SKIP_INSPECTION" />
   </component>
   <component name="MacroExpansionManager">
     <option name="directoryName" value="ky732le4" />
@@ -48,10 +57,11 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/xxzxka/Desktop/RustDemos/闭包/Cargo.toml",
     "org.rust.cargo.project.model.PROJECT_DISCOVERY": "true",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
   },
   "keyToStringList": {
     "GitStage.ChangesTree.GroupingKeys": [
@@ -75,7 +85,9 @@
       <workItem from="1703062260468" duration="760000" />
       <workItem from="1703063379149" duration="124000" />
       <workItem from="1703063638090" duration="1601000" />
-      <workItem from="1703065518214" duration="39000" />
+      <workItem from="1703065518214" duration="894000" />
+      <workItem from="1703066426384" duration="41000" />
+      <workItem from="1703121725772" duration="7903000" />
     </task>
     <task id="LOCAL-00001" summary="闭包">
       <option name="closed" value="true" />
