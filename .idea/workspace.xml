@@ -6,10 +6,12 @@
   <component name="CargoProjects">
     <cargoProject FILE="$PROJECT_DIR$/闭包/Cargo.toml" />
     <cargoProject FILE="$PROJECT_DIR$/迭代器/Cargo.toml" />
+    <cargoProject FILE="$PROJECT_DIR$/发布自定义crate/Cargo.toml" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="72c1a986-9145-4e05-b79d-a9250933f0ca" name="更改" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/命令行程序/src/lib.rs" beforeDir="false" afterPath="$PROJECT_DIR$/命令行程序/src/lib.rs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/迭代器/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/迭代器/src/main.rs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -35,6 +37,7 @@
     </option>
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/迭代器/src/main.rs" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/闭包/src/main.rs" root0="SKIP_INSPECTION" />
   </component>
   <component name="MacroExpansionManager">
@@ -55,6 +58,7 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Cargo.Test main::tests.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
@@ -62,9 +66,15 @@
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/xxzxka/Desktop/RustDemos/闭包/Cargo.toml&quot;,
     &quot;org.rust.cargo.project.model.PROJECT_DISCOVERY&quot;: &quot;true&quot;,
+    &quot;org.rust.hideNoCargoProjectNotificationsC:/Users/xxzxka/Desktop/RustDemos/命令行程序/src/lib.rs&quot;: &quot;true&quot;,
+    &quot;org.rust.hideNoCargoProjectNotificationsC:/Users/xxzxka/Desktop/RustDemos/命令行程序/src/main.rs&quot;: &quot;true&quot;,
+    &quot;org.rust.hideNoCargoProjectNotificationsC:/Users/xxzxka/Desktop/RustDemos/自动化测试/adder/src/lib.rs&quot;: &quot;true&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;language.rust.cargo.check&quot;
   },
   &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
+    ],
     &quot;GitStage.ChangesTree.GroupingKeys&quot;: [
       &quot;directory&quot;,
       &quot;module&quot;,
@@ -72,6 +82,30 @@
     ]
   }
 }</component>
+  <component name="RunManager">
+    <configuration name="Test main::tests" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
+      <option name="command" value="test --package iterators --bin iterators tests" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$/迭代器" />
+      <option name="emulateTerminal" value="true" />
+      <option name="channel" value="DEFAULT" />
+      <option name="requiredFeatures" value="true" />
+      <option name="allFeatures" value="false" />
+      <option name="withSudo" value="false" />
+      <option name="buildTarget" value="REMOTE" />
+      <option name="backtrace" value="SHORT" />
+      <envs />
+      <option name="isRedirectInput" value="false" />
+      <option name="redirectInputPath" value="" />
+      <method v="2">
+        <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Cargo.Test main::tests" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="RustProjectSettings">
     <option name="toolchainHomeDirectory" value="$USER_HOME$/.cargo/bin" />
   </component>
@@ -90,7 +124,10 @@
       <workItem from="1703066426384" duration="41000" />
       <workItem from="1703121725772" duration="8919000" />
       <workItem from="1703208253207" duration="4376000" />
-      <workItem from="1703230421442" duration="3131000" />
+      <workItem from="1703230421442" duration="3274000" />
+      <workItem from="1703483768303" duration="4582000" />
+      <workItem from="1703655526511" duration="1755000" />
+      <workItem from="1703662957850" duration="1062000" />
     </task>
     <task id="LOCAL-00001" summary="闭包">
       <option name="closed" value="true" />
@@ -116,7 +153,15 @@
       <option name="project" value="LOCAL" />
       <updated>1703152713161</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="迭代器v2">
+      <option name="closed" value="true" />
+      <created>1703239365233</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1703239365233</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -133,6 +178,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="闭包" />
     <MESSAGE value="迭代器" />
-    <option name="LAST_COMMIT_MESSAGE" value="迭代器" />
+    <MESSAGE value="迭代器v2" />
+    <option name="LAST_COMMIT_MESSAGE" value="迭代器v2" />
   </component>
 </project>

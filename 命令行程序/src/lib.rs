@@ -21,8 +21,7 @@ impl Query{
 
 pub fn run(query: Query) -> Result<(),Box< dyn Error > >{
     let content = fs::read_to_string(query.file_name)?;
-
-    for line in search(&query.key_words, &content) {
+    for line in search.into_itor()(&query.key_words, &content) {
         println!("{}", line);
     }
     Ok(())
