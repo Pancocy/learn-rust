@@ -1,0 +1,11 @@
+[workspace ]
+resolver = "2"
+members = [
+    "adder",
+    "add-one"
+]
+
+
+# 1.为了在顶层目录运行crates里的二进制文件，使用cargo run -p packageName
+# 2.工作空间里的crates中同样可以使用外部crate，在顶层目录使用cargo build编译后，工作空间(顶层目录下的Cargo.lock)下会同步对应的crate信息
+#  但是在工作空间中的其他crate里使用该外部crate将收到错误
