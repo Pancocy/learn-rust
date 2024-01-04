@@ -71,6 +71,20 @@ fn main() {
             &self.0
         }
     }
-
     assert_eq!(5,*boxed_int);
+
+    //drop trait
+    struct CustomSmartPointer{
+        data:String,
+    }
+
+    impl Drop for CustomSmartPointer{
+        fn drop(&mut self){
+            println!("Dropping CustomSmartPointer with data `{}`",self.data);
+        }
+    }
+
+    let a = CustomSmartPointer{data:String::from("my data")};
+    let b = CustomSmartPointer{data:String::from("other data")};
+    //当程序编译时，当它们离开作用域时，会调用drop方法，打印出数据，先打印b，再打印a
 }
