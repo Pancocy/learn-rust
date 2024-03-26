@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="AutoImportSettings">
-    <option name="autoReloadType" value="SELECTIVE" />
+    <option name="autoReloadType" value="ALL" />
   </component>
   <component name="CargoProjects">
     <cargoProject FILE="$PROJECT_DIR$/闭包/Cargo.toml" />
@@ -9,19 +9,41 @@
     <cargoProject FILE="$PROJECT_DIR$/发布自定义crate/Cargo.toml" />
     <cargoProject FILE="$PROJECT_DIR$/工作空间/Cargo.toml" />
     <cargoProject FILE="$PROJECT_DIR$/智能指针/Cargo.toml" />
+    <cargoProject FILE="$PROJECT_DIR$/引用计数智能指针/Cargo.toml" />
+    <cargoProject FILE="$PROJECT_DIR$/无畏并发/Cargo.toml" />
+    <cargoProject FILE="$PROJECT_DIR$/共享状态并发/Cargo.toml" />
+    <cargoProject FILE="$PROJECT_DIR$/类接口/Cargo.toml" />
+    <cargoProject FILE="$PROJECT_DIR$/服务器/Cargo.toml" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="72c1a986-9145-4e05-b79d-a9250933f0ca" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/智能指针/Cargo.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/智能指针/Cargo.toml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/智能指针/src/main.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/共享状态并发/Cargo.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/共享状态并发/Cargo.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/共享状态并发/src/main.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/服务器/404.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/服务器/Cargo.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/服务器/Cargo.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/服务器/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/服务器/src/main.rs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/闭包/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/闭包/src/main.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/智能指针/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/智能指针/src/main.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/泛型/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/泛型/src/main.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/类接口/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/类接口/src/main.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/自动化测试/adder/src/lib.rs" beforeDir="false" afterPath="$PROJECT_DIR$/自动化测试/adder/src/lib.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/自动化测试/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/自动化测试/src/main.rs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Rust File" />
+        <option value="HTML File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -41,9 +63,13 @@
     </option>
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/共享状态并发/src/main.rs" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/工作空间/Cargo.toml" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/工作空间/add-one/src/lib.rs" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/引用计数智能指针/src/main.rs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/无畏并发/src/lib.rs" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/智能指针/src/main.rs" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/类接口/src/main.rs" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/迭代器/src/main.rs" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/闭包/src/main.rs" root0="SKIP_INSPECTION" />
   </component>
@@ -69,42 +95,95 @@
     <option name="showScratchesAndConsoles" value="false" />
     <option name="sortKey" value="BY_TIME_DESCENDING" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Cargo.Run adder.executor": "Run",
-    "Cargo.Run smartpointer.executor": "Run",
-    "Cargo.Test main::tests.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "D:/Chrome Download/tongyi-jetbrains-latest.zip",
-    "org.rust.cargo.project.model.PROJECT_DISCOVERY": "true",
-    "org.rust.disableDetachedFileInspectionC:/Users/xxzxka/Desktop/RustDemos/工作空间/add-one/src/lib.rs": "true",
-    "org.rust.hideNoCargoProjectNotificationsC:/Users/xxzxka/Desktop/RustDemos/命令行程序/src/lib.rs": "true",
-    "org.rust.hideNoCargoProjectNotificationsC:/Users/xxzxka/Desktop/RustDemos/命令行程序/src/main.rs": "true",
-    "org.rust.hideNoCargoProjectNotificationsC:/Users/xxzxka/Desktop/RustDemos/自动化测试/adder/src/lib.rs": "true",
-    "org.rust.hideNoCargoProjectNotificationsC:/Users/xxzxka/Desktop/RustDemos/自动化测试/src/main.rs": "true",
-    "settings.editor.selected.configurable": "TONGYI Lingma"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Cargo.Run adder.executor&quot;: &quot;Run&quot;,
+    &quot;Cargo.Run iterators.executor&quot;: &quot;Run&quot;,
+    &quot;Cargo.Run mutexarc.executor&quot;: &quot;Run&quot;,
+    &quot;Cargo.Run smartpointer.executor&quot;: &quot;Run&quot;,
+    &quot;Cargo.Test main::tests.executor&quot;: &quot;Run&quot;,
+    &quot;Cargo.help [colusure].executor&quot;: &quot;Run&quot;,
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.rust.reset.selective.auto.import&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/xxzxka/Desktop/RustDemos/类接口/Cargo.toml&quot;,
+    &quot;org.rust.cargo.project.model.PROJECT_DISCOVERY&quot;: &quot;true&quot;,
+    &quot;org.rust.disableDetachedFileInspectionC:/Users/xxzxka/Desktop/RustDemos/工作空间/add-one/src/lib.rs&quot;: &quot;true&quot;,
+    &quot;org.rust.disableDetachedFileInspectionC:/Users/xxzxka/Desktop/RustDemos/引用计数智能指针/src/lib.rs&quot;: &quot;true&quot;,
+    &quot;org.rust.disableDetachedFileInspectionC:/Users/xxzxka/Desktop/RustDemos/无畏并发/src/lib.rs&quot;: &quot;true&quot;,
+    &quot;org.rust.first.attach.projects.stats&quot;: &quot;true&quot;,
+    &quot;org.rust.hideNoCargoProjectNotificationsC:/Users/xxzxka/Desktop/RustDemos/向量/src/main.rs&quot;: &quot;true&quot;,
+    &quot;org.rust.hideNoCargoProjectNotificationsC:/Users/xxzxka/Desktop/RustDemos/命令行程序/src/lib.rs&quot;: &quot;true&quot;,
+    &quot;org.rust.hideNoCargoProjectNotificationsC:/Users/xxzxka/Desktop/RustDemos/命令行程序/src/main.rs&quot;: &quot;true&quot;,
+    &quot;org.rust.hideNoCargoProjectNotificationsC:/Users/xxzxka/Desktop/RustDemos/哈希表/src/main.rs&quot;: &quot;true&quot;,
+    &quot;org.rust.hideNoCargoProjectNotificationsC:/Users/xxzxka/Desktop/RustDemos/字符串/src/main.rs&quot;: &quot;true&quot;,
+    &quot;org.rust.hideNoCargoProjectNotificationsC:/Users/xxzxka/Desktop/RustDemos/数据类型/src/main.rs&quot;: &quot;true&quot;,
+    &quot;org.rust.hideNoCargoProjectNotificationsC:/Users/xxzxka/Desktop/RustDemos/枚举/src/main.rs&quot;: &quot;true&quot;,
+    &quot;org.rust.hideNoCargoProjectNotificationsC:/Users/xxzxka/Desktop/RustDemos/泛型/src/main.rs&quot;: &quot;true&quot;,
+    &quot;org.rust.hideNoCargoProjectNotificationsC:/Users/xxzxka/Desktop/RustDemos/自动化测试/adder/src/lib.rs&quot;: &quot;true&quot;,
+    &quot;org.rust.hideNoCargoProjectNotificationsC:/Users/xxzxka/Desktop/RustDemos/自动化测试/src/main.rs&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;TONGYI Lingma&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mysql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
     ],
-    "GitStage.ChangesTree.GroupingKeys": [
-      "directory",
-      "module",
-      "repository"
+    &quot;GitStage.ChangesTree.GroupingKeys&quot;: [
+      &quot;directory&quot;,
+      &quot;module&quot;,
+      &quot;repository&quot;
     ]
   }
-}]]></component>
-  <component name="RunManager" selected="Cargo.Run smartpointer">
+}</component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="cargo help" />
+    </option>
+  </component>
+  <component name="RunManager" selected="Cargo.Run iterators">
     <configuration name="Run adder" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
       <option name="command" value="run --package adder --bin adder" />
       <option name="workingDirectory" value="file://$PROJECT_DIR$/工作空间" />
+      <option name="emulateTerminal" value="true" />
+      <option name="channel" value="DEFAULT" />
+      <option name="requiredFeatures" value="true" />
+      <option name="allFeatures" value="false" />
+      <option name="withSudo" value="false" />
+      <option name="buildTarget" value="REMOTE" />
+      <option name="backtrace" value="SHORT" />
+      <envs />
+      <option name="isRedirectInput" value="false" />
+      <option name="redirectInputPath" value="" />
+      <method v="2">
+        <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Run iterators" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
+      <option name="command" value="run --package iterators --bin iterators" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$/迭代器" />
+      <option name="emulateTerminal" value="true" />
+      <option name="channel" value="DEFAULT" />
+      <option name="requiredFeatures" value="true" />
+      <option name="allFeatures" value="false" />
+      <option name="withSudo" value="false" />
+      <option name="buildTarget" value="REMOTE" />
+      <option name="backtrace" value="SHORT" />
+      <envs />
+      <option name="isRedirectInput" value="false" />
+      <option name="redirectInputPath" value="" />
+      <method v="2">
+        <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Run mutexarc" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
+      <option name="command" value="run --package mutexarc --bin mutexarc" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$/共享状态并发" />
       <option name="emulateTerminal" value="true" />
       <option name="channel" value="DEFAULT" />
       <option name="requiredFeatures" value="true" />
@@ -136,9 +215,9 @@
         <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test main::tests" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
-      <option name="command" value="test --package iterators --bin iterators tests" />
-      <option name="workingDirectory" value="file://$PROJECT_DIR$/迭代器" />
+    <configuration name="help [colusure]" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
+      <option name="command" value="help" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$" />
       <option name="emulateTerminal" value="true" />
       <option name="channel" value="DEFAULT" />
       <option name="requiredFeatures" value="true" />
@@ -155,9 +234,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Cargo.Run iterators" />
+        <item itemvalue="Cargo.Run mutexarc" />
+        <item itemvalue="Cargo.help [colusure]" />
         <item itemvalue="Cargo.Run smartpointer" />
         <item itemvalue="Cargo.Run adder" />
-        <item itemvalue="Cargo.Test main::tests" />
       </list>
     </recent_temporary>
   </component>
@@ -188,7 +269,29 @@
       <workItem from="1704163976790" duration="2692000" />
       <workItem from="1704182610792" duration="43000" />
       <workItem from="1704182666753" duration="1980000" />
-      <workItem from="1704248201241" duration="6251000" />
+      <workItem from="1704248201241" duration="6470000" />
+      <workItem from="1704333040747" duration="906000" />
+      <workItem from="1704358673075" duration="2722000" />
+      <workItem from="1704417176131" duration="42000" />
+      <workItem from="1704417799671" duration="8295000" />
+      <workItem from="1704695101370" duration="6822000" />
+      <workItem from="1704763870097" duration="841000" />
+      <workItem from="1704780601564" duration="6690000" />
+      <workItem from="1704853457421" duration="383000" />
+      <workItem from="1704853858663" duration="505000" />
+      <workItem from="1704854397905" duration="1951000" />
+      <workItem from="1704868660123" duration="1232000" />
+      <workItem from="1705302202008" duration="2762000" />
+      <workItem from="1705309511443" duration="754000" />
+      <workItem from="1705368626286" duration="6027000" />
+      <workItem from="1705456639642" duration="3391000" />
+      <workItem from="1705540809853" duration="8925000" />
+      <workItem from="1705629017272" duration="1320000" />
+      <workItem from="1705885900356" duration="1641000" />
+      <workItem from="1711092917211" duration="4830000" />
+      <workItem from="1711330821349" duration="271000" />
+      <workItem from="1711331715570" duration="545000" />
+      <workItem from="1711355900044" duration="5000" />
     </task>
     <task id="LOCAL-00001" summary="闭包">
       <option name="closed" value="true" />
@@ -238,7 +341,31 @@
       <option name="project" value="LOCAL" />
       <updated>1703671183776</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="智能指针">
+      <option name="closed" value="true" />
+      <created>1704276090190</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1704276090190</updated>
+    </task>
+    <task id="LOCAL-00008" summary="引用计数">
+      <option name="closed" value="true" />
+      <created>1704362411049</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1704362411049</updated>
+    </task>
+    <task id="LOCAL-00009" summary="无畏并发">
+      <option name="closed" value="true" />
+      <created>1704707311524</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1704707311524</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -259,7 +386,10 @@
     <MESSAGE value="迭代器v2" />
     <MESSAGE value="发布crate" />
     <MESSAGE value="发布crate&amp;工作空间" />
-    <option name="LAST_COMMIT_MESSAGE" value="发布crate&amp;工作空间" />
+    <MESSAGE value="智能指针" />
+    <MESSAGE value="引用计数" />
+    <MESSAGE value="无畏并发" />
+    <option name="LAST_COMMIT_MESSAGE" value="无畏并发" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

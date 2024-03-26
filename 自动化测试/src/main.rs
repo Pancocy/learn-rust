@@ -2,7 +2,6 @@
 
 */
 
-
 fn main() {
     
 }
@@ -14,12 +13,4 @@ fn main() {
         2.集成测试
  */
 
-#[cfg(test)]
-mod test{
-    #[test]
-    fn it_works(){
-
-    }
-
-}
 

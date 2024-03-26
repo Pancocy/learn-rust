@@ -58,6 +58,7 @@ pub fn notify_bounds<T,U>(item1:T, item2:U) where T: Summary ,U: Summary  {
 }
 
 
+
 fn main() {
     let news = NewsPaper{
         author: "franklyn".to_string(),
@@ -79,10 +80,10 @@ fn main() {
             通过传入任何实例化后的trait作为参数，在nitify方法中调用每个实例的行为
     */
     notify( &news);
-    notify(&tweet);
+    notify( &tweet);
 
     /*
-        trait作为参数：2.trait bounds
+            trait作为参数：2.trait bounds
     */
     notify_bounds(news,tweet);
 

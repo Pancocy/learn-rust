@@ -47,11 +47,11 @@ fn main() {
         width:String::from("xxz"),
         height:20
     };
-    let pointe2 = Rectangle{
+    let point2 = Rectangle{
         width:5.20,
         height:String::from("xka")
     };
-    let point3 =Point1.mix(pointe2);
+    let point3 =Point1.mix(point2);
     println!("{:?}",point3);
 
 }

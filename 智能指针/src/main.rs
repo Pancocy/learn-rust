@@ -29,7 +29,7 @@ fn main() {
         let i = Box::new(23);
         println!("value = {}",i);
 
-    //2.Box允许使用递归创建编译时位置大小的数据量
+    //2.Box允许使用递归创建编译时未知大小的数据量
     let list = Box::new(Cons(1,Cons(2,Cons(3,Cons(4,Nil)))));
 
     //3.Box计算非递归枚举的存储空间.计算非递归的枚举类型时，因枚举一次只能使用一个成员，因此Box会计算最大成员所需的存储空间作为box指针的大小
